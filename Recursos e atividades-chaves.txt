@@ -1,0 +1,56 @@
+Projeto: Creative Roll
+Integrantes: João Pedro Freitas
+
+ATIVIDADES-CHAVE:
+
+1. Ideia:
+- Definir proposta de valor e nicho
+- Pesquisar recursos
+- Discutir ideia
+- Apresentar ideia para possíveis investidores e parceiros
+- Aprender programação e recursos que podem ser utilizados no projeto (A,B,C,D,E)
+
+2. Modelo de  Negócio:
+- Definir objetivos
+- Definir estratégias/ações
+- Verificar custos
+- Definir recursos e equipe (A,B,C,D,E)
+- Separar atividades na equipe
+- Buscar parcerias
+- Encaixar monetização
+
+3. Protótipo:
+- Coletar requisitos
+- Definir tipo de protótipo
+- Definir ferramenta de prototipagem (E)
+- Montar e testar protótipo
+- Apresentar protótipo para possíveis investidores e parceiros
+
+4. Modelagem do Sistema:
+- Pesquisar ferramenta de modelagem
+- Modelar casos de uso e diagramas
+- Apresentar modelagem para equipe e outras pessoas
+- Discutir a codificação com a equipe (A,B)
+
+5. Codificação:
+- Codificar primeira versão
+- Testar primeira versão
+- Analisar resultados do teste
+- Discutir implantação com a equipe (D,E)
+
+6. Implantação:
+- Configurar o ambiente de implantação
+- Implantar o código testado
+
+
+RECURSOS:
+
+A. Banco Dados: MYSQL 
+
+B. Linguagem Programação: 1. HTML, CSS (Bootstrap), 2. JavaScript, 3. Node.JS ou Python
+		
+C. Hospedagem: Heroku (Definir melhor)
+
+D. Repositório Fontes: Github
+
+E. Ferramentas Protótipo: Figma

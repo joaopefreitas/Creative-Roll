@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Creative Roll - Opine sobre vídeos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylesheetSemBootsTrap.css') }}">
+    <link rel="shortcut icon" href="static/favicon.ico" />
+    <link rel="icon" href="static/favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='passwordconfirmation.js')}}"></script>
+
+    <section class="container-letras">
+        <img src="/static/nomecompletosemfundo.png" class="logo" alt="Logo do Creative Roll">
+        <div class="descubra">Descubra,</div>
+        <div class="c">Opine,</div>
+        <div class="c">Conecte,</div>
+        <div class="c">Compartilhe.</div>
+    </section>
+
+</head>
+
+<body>
+    <section class="container" id="container">
+        <form action="/registro" class="criar" method="POST">
+            <div class="cconta">Sign Up</div>
+            <div class="botoes">
+                <a href="#" class="fa fa-youtube-play"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+            <input type="text" name="nome" placeholder="Nome Completo" required>
+            <input type="password" id="senhaid" name="senha" placeholder="Senha" required>
+            <input type="password" id="csenha" name="confirmar" placeholder="Confirmar senha" required>
+            <input type="number" name="telefone" placeholder="Telefone" required>
+            <button class="cadastro" type="submit" onclick=validarSenha()>Cadastrar</button>
+            <button type="button" onclick="location.href='/login'" class="bentrar" id="btnjatenhoconta">Já tenho
+                conta</button>
+        </form>
+</body>
+
+</html>
