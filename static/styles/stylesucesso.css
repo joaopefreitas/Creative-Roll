@@ -11,16 +11,22 @@ body {
     min-height: 100%;
     margin: 0;
   }
+
+  .container{
+    display: flex;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
   
   #card {
-    position: flex;
-    align-items: center;
     width: 320px;
     display: block;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    justify-content: center;
-    flex-direction: column;
+    margin: 0 auto;
   }
   
   #cima {
