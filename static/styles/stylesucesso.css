@@ -1,17 +1,26 @@
+html {
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
 body {
     background-image: url("olho.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100%;
+    margin: 0;
   }
   
   #card {
-    position: relative;
-    top: 280px;
+    position: flex;
+    align-items: center;
     width: 320px;
     display: block;
-    margin: auto;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+    flex-direction: column;
   }
   
   #cima {

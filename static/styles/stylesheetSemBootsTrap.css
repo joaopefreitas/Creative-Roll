@@ -1,10 +1,18 @@
-html,body{
+  html {
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  body{
     font-family: 'Montserrat', sans-serif;
     background-image: url("olho.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-      margin:0;
+    min-height: 100%;
+    margin: 0;
   }
+
   
   .container2{
     display: flex;
